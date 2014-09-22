@@ -1,0 +1,69 @@
+/*
+base03    #002b36
+base02    #073642
+base01    #586e75
+base00    #657b83
+base0     #839496
+base1     #93a1a1
+base2     #eee8d5
+base3     #fdf6e3
+
+yellow    #b58900
+orange    #cb4b16
+red       #dc322f
+magenta   #d33682
+violet    #6c71c4
+blue      #268bd2
+cyan      #2aa198
+green     #859900
+
+
+base0:  primary content
+base1:  optional emphasized content
+base01: secondary content
+
+base02: background highlights
+base03: background
+*/
+
+body {
+  background-color: #002b36;
+  color: #839496;
+  font-family: Menlo;
+}
+
+pre {
+  border-style:solid;
+  border-width:1px;
+  border-color:#839496;
+}
+
+pre, code {
+  background-color: #073642;
+  color: #93a1a1;
+}
+
+a {
+  color: #859900;
+}
+
+.navbar .brand {
+  text-shadow: 0 0 0 #000;
+}
+
+.navbar .nav>li>a {
+  text-shadow: 0 0 0 #000;
+}
+
+.navbar-inner {
+  background-color: #073642;
+  background-image: none;
+  background-repeat: no-repeat;
+  filter: none;
+  border-style: none;
+}
+
+.tag_box a {
+  background-color: #b58900;
+  border:none;
+}
