@@ -17,11 +17,11 @@ I consider myself a fresh software developer with the focus on web application. 
 
 I enjoy reading books and research papers about various topics: programming, software engineering and development. Space technology is also my favorite topic, and I frequently visit NASA's website to update myself. Reading books and academic/scientific source of information
 
-In my free time, I like to participate in the open source communities. I have developed some open-source tools. Check them out at my GitHub at https://github.com/vuongdothanhhuy. I also like taking free online courses at Udacity, eDX and Coursera.
+In my free time, I like to participate in the open source communities. I have developed some open-source tools. Check them out at [my GitHub](https://github.com/vuongdothanhhuy). I also like taking free online courses at Udacity, eDX and Coursera.
 
 ### About My Style
 
-I'm a fan of minimalistic and I favor the Solarized color theme. You can clearly see this on my blog, which is Jekyll-based static blogging system running on GitHub with a simple Solarized theme. Take a look at it at http://vuongdothanhhuy.github.io/ (At this time, the blog is not finished yet, unfortunately).
+I'm a fan of minimalistic and I favor the Solarized color theme. You can clearly see this on my blog, which is Jekyll-based static blogging system running on GitHub with a simple Solarized theme. Take a look at it [here](http://vuongdothanhhuy.github.io/) (At this time, the blog is not finished yet, unfortunately).
 
 ### About This Blog
 
@@ -29,4 +29,4 @@ I started this blog mostly because I want to note down my thought, my experience
 
 ### Contact Me
 
-I can be contacted by email at vuongdothanhhuy[at]gmail[dot]com or my [LinkedIn](https://www.linkedin.com/in/huyvuongdothanh) profile.
+I can be contacted by email at [vuongdothanhhuy[at]gmail[dot]com](mailto:vuongdothanhhuy@gmail.com) or my [LinkedIn](https://www.linkedin.com/in/huyvuongdothanh) profile.
