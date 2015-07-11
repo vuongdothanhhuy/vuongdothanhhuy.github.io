@@ -1,9 +1,60 @@
-name: Vuong Do Thanh Huy
-url: http://vuongdothanhhuy.github.io
-description: My personal blog
+# Site wide configuration
 
-permalink: /:year/:month/:day/:title/
-paginate: 10
+title:            My Personal Corner
+locale:           en_US
+url:
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
 highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: Vuong Do Thanh Huy
+  avatar: bio-photo.jpg
+  bio: "Web Developer"
+  email: vuongdothanhhuy@gmail.com
+  disqus-shortname: vuongdothanhhuy-github-blog
+  twitter: vuongdothanhhuy
+  facebook: vuongdothanhhuy
+  google:
+    plus: huyvuongdothanh
+    analytics: UA-55234423-1
+    verify: _vFYgQ18DN0bpOzJWbTrZ6Ldg2O-0oSeHRzyDB_gWXMs
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: vuongdothanhhuy
+  stackoverflow: 1140627/huy-vuong-do-thanh
+  linkedin: huyvuongdothanh
+  xing:
+  instagram:
+  lastfm:
+  tumblr:
+  pinterest:
+  foursquare:
+  steam:
+  dribbble:
+  youtube:
+  soundcloud:
+  weibo:
+  flickr:
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
