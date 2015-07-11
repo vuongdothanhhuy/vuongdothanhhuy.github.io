@@ -1,8 +1,14 @@
 ---
 layout: post
-title:  "SailsJS Middleware to Validate Shopify Webhook"
-date:   2015-06-15 16:30:00
-categories: javascript expressjs web-development nodejs sailsjs
+title: SailsJS Middleware to Validate Shopify Webhook
+excerpt: "SailsJS Middleware to Validate Shopify Webhook"
+modified: 2015-07-11
+tags: [javascript, expressjs, web-development, nodejs, sailsjs]
+comments: true
+image:
+  feature: banner.jpg
+  credit: WeGraphics
+  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
 Hi there,
@@ -20,18 +26,18 @@ I do not want to do the hack way, so I dig into middleware use. After some sort 
 {% highlight javascript %}
     ShopifyWebHookValidation: function (req, res, next) {
         var crypto = require('crypto');
-        var SHOPIFY`APP`SHARED`SECRET = 'put`your`share`secret`here',
-            SHOPIFY`HMAC`HEADER = 'X-Shopify-Hmac-SHA256',
-            SHOPIFY`PATH = '/webhook/shopify',
-            SHOPIFY`METHOD = 'POST';
-        var shopifyHmacSha256 = req.get(SHOPIFY`HMAC`HEADER),
+        var SHOPIFY_APP_SHARED_SECRET = 'put_your_share_secret_here',
+            SHOPIFY_HMAC_HEADER = 'X-Shopify-Hmac-SHA256',
+            SHOPIFY_PATH = '/webhook/shopify',
+            SHOPIFY_METHOD = 'POST';
+        var shopifyHmacSha256 = req.get(SHOPIFY_HMAC_HEADER),
             path = req.path,
             method = req.method;
 
-        if (shopifyHmacSha256 && path === SHOPIFY`PATH && method === SHOPIFY`METHOD) {
+        if (shopifyHmacSha256 && path === SHOPIFY_PATH && method === SHOPIFY_METHOD) {
 
             //on Shopify route, POST and has hmac header
-            req.hasher = crypto.createHmac('sha256', SHOPIFY`APP`SHARED`SECRET);
+            req.hasher = crypto.createHmac('sha256', SHOPIFY_APP_SHARED_SECRET);
 
             req.on('data', function (chunk) {
                 req.hasher.write(chunk);
