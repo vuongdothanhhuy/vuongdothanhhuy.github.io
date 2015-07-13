@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AngularJS Data Binding Performance Issue
+title: AngularJS Data Binding Performance Tweak
 excerpt: "Some tips about finetuning angularjs data-binding for performance"
 modified: 2015-06-17
 tags: [javascript, angularjs, web-development]
