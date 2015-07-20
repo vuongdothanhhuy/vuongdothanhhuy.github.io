@@ -5,6 +5,7 @@ excerpt: "Some tips about finetuning angularjs data-binding for performance"
 modified: 2015-06-17
 tags: [javascript, angularjs, web-development]
 comments: true
+published: false
 image:
   feature: banner.jpg
   credit: WeGraphics
