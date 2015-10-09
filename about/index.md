@@ -21,11 +21,13 @@ When learning something, I like to dig into it deeply enough to explain it in si
 
 ### About Me
 
-I consider myself a fresh software developer with the focus on web application. I studied extensively Java during my bachelor program at RMIT Vietnam, but for now I mainly use Javascript to develop web application. I love to use AngularJS for the frontends and NodeJS or PHP for the backends. I'm also a fan of Yeoman and other automated tools that help developers' life easier and more fun.
+I consider myself a mid-senior web developer with the focus on backend and frontend (JS functions only). I can do frontend CSS, but not really good. I studied extensively Java during my bachelor program at RMIT Vietnam, but for now I mainly use Javascript to develop web application. I love to use AngularJS for the frontend and NodeJS, Golang or PHP for the backend. I'm also a fan of Yeoman and other automated tools that help developers'​ life easier and more fun.
 
-I enjoy reading books and research papers about various topics: programming, software engineering and development. Space technology is also my favorite topic, and I frequently visit NASA's website to update myself. Reading books and academic/scientific source of information
+I enjoy reading books and research papers about various topics: programming, software engineering  and development. Space technology is also my favorite topic, and I frequently visit NASA's website to update myself. Reading books and academic/scientific source of information
 
-In my free time, I like to participate in the open source communities. I have developed some open-source tools. Check them out at [my GitHub][github]. I also like taking free online courses at Udacity, eDX and Coursera.
+Besides working as a web engineer, I am also interested in doing research and get detailed answers/analysis to questions, which could lead to better decision making and less predictable and preventable mistakes.
+
+In my free time, I like to participate in the open source communities, fixing bugs and create new feature, then make pull requests. I also like taking free online courses at Udacity, eDX and Coursera.
 
 ### About My Style
 
